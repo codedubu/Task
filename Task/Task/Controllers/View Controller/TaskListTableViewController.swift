@@ -30,7 +30,7 @@ class TaskListTableViewController: UITableViewController {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "taskCell", for: indexPath) as? TaskTableViewCell else { return UITableViewCell() }
         
         let task = TaskController.shared.tasks[indexPath.row]
-        cell.textLabel?.text = task.name
+//        cell.textLabel?.text = task.name
         
         cell.delegate = self
         cell.task = task

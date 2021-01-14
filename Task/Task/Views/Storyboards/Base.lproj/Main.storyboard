@@ -37,7 +37,7 @@
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOu-Sp-Yzp">
                                             <rect key="frame" x="20" y="17.5" width="326" height="30"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -51,7 +51,6 @@
                                         <constraint firstItem="lOu-Sp-Yzp" firstAttribute="height" secondItem="YWd-F5-77T" secondAttribute="height" multiplier="0.461538" id="gxq-4p-QGd"/>
                                         <constraint firstItem="SyX-5A-Xkt" firstAttribute="height" secondItem="YWd-F5-77T" secondAttribute="height" multiplier="0.692308" id="jvE-Ia-Af7"/>
                                         <constraint firstItem="SyX-5A-Xkt" firstAttribute="leading" secondItem="lOu-Sp-Yzp" secondAttribute="trailing" constant="8" symbolic="YES" id="vRu-mf-50U"/>
-                                        <constraint firstItem="lOu-Sp-Yzp" firstAttribute="leading" secondItem="YWd-F5-77T" secondAttribute="leading" constant="20" symbolic="YES" id="znQ-9Z-gFK"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
